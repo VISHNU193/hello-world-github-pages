@@ -29,6 +29,6 @@ Feel free to reach out if you want to collaborate on a project, discuss tech-rel
 
 Thank you for visiting my portfolio! I hope you enjoy exploring my work.
 
-i have updated the readme file 
+
 
 
