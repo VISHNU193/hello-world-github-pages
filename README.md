@@ -25,8 +25,7 @@ I'm currently pursuing my Bachelor's in Computer Science and Engineering, with a
 Feel free to reach out if you want to collaborate on a project, discuss tech-related topics, or just want to connect! You can contact me through the following:
 
 - Email: vishnu25kp@gmail.com
-- LinkedIn: url
-- GitHub: url
+
 
 Thank you for visiting my portfolio! I hope you enjoy exploring my work.
 
