@@ -1,3 +1,68 @@
-remote_theme: pages-themes/hacker@v0.2.0
+# Site settings
+title: "Vishnu Kumar K"
+description: "Personal portfolio website showcasing projects, skills, and achievements in Computer Science and Engineering."
+url: "https://VISHNU193.github.io"
+baseurl: "" # Leave this empty unless you are using a project page (e.g., https://VISHNU193.github.io/repository-name)
+author:
+  name: "Vishnu Kumar K"
+  email: "vishnukumar@example.com" # Replace with your actual email address
+  twitter: "https://twitter.com/vishnukumar" # Replace with your actual Twitter handle
+  github: "https://github.com/VISHNU193" # Your actual GitHub profile URL
+  linkedin: "https://www.linkedin.com/in/vishnukumar" # Replace with your actual LinkedIn profile URL
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-cayman # You can choose another theme or customize this
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Permalink settings
+permalink: "/:categories/:year/:month/:day/:slug/"
+
+# Collections (if you have a blog or other custom content)
+collections:
+  blog:
+    output: true
+    permalink: /blog/:year/:month/:day/:slug/
+
+# Exclude files and directories from being processed by Jekyll
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+
+# Social sharing settings (for SEO & sharing on social media)
+seo:
+  title: "Personal Portfolio - Vishnu Kumar K"
+  description: "Explore my projects, skills, and accomplishments in the field of Computer Science and Engineering."
+  image: "assets/images/your-photo.jpg" # Make sure to update this path with your image (profile photo)
+
+# Google Analytics (Optional)
+google_analytics: "UA-XXXXX-Y" # Replace with your own tracking ID if you want to track website visitors
+
+# Feed settings
+feed:
+  path: "feed.xml"
+  limit: 10
+
+# Other settings
+paginate: 5  # Number of posts to show per page (if using a blog)
+paginate_path: "/page:num/"
+
+# Defaults for new posts/pages
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Vishnu Kumar K"
+      category: "General"
+      tags: ["CSE", "Portfolio"]
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
