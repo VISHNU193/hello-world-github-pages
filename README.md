@@ -5,7 +5,7 @@ Welcome to my personal portfolio website! I'm **Vishnu Kumar K**, a passionate a
 ## About Me
 
 I'm currently pursuing my Bachelor's in Computer Science and Engineering, with a focus on software development, machine learning, data structures, and algorithms. I am passionate about solving real-world problems through technology and love to experiment with new tools and frameworks. Through this portfolio, I aim to share my projects and demonstrate the skills I've developed throughout my academic journey.
-
+ 
 ## What You'll Find Here
 
 - **Projects**: A collection of my academic and personal projects, ranging from software applications to data analysis and machine learning models.
